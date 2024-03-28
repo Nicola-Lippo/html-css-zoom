@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.d-flex {
+    display: flex;
+}
+
 
 /* CLASI UTILITY MAIN */
 
@@ -24,11 +28,22 @@ main {
 
 .col-7 {
     width: calc(100% / 7);
-    background-color: blue;
-    border: 1px solid black;
-    height: 100px;
 }
 
+.contenuto {
+    padding: 0 5px 10px 0;
+    position: relative;
+}
+
+.foto-zoom {
+    max-width: 100%;
+}
+
+.user {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
 
 
 /* FINE CLASI UTILITY MAIN */
